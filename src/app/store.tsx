@@ -9,7 +9,7 @@ import React, {
   useEffect,
   ReactNode,
 } from "react";
-import { Assessment, Answer, ComputedResult } from "../domain/types";
+import { Assessment } from "../domain/types";
 import { updateAssessmentWithResults } from "../domain/computeProfile";
 import {
   saveAssessment,
