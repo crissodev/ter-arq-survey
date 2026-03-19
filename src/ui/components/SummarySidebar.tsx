@@ -3,7 +3,7 @@
  */
 
 import React from "react";
-import { Card, ListGroup, Badge, ProgressBar as BootstrapProgressBar } from "react-bootstrap";
+import { Card, ListGroup, ProgressBar as BootstrapProgressBar } from "react-bootstrap";
 import { Section, Answer } from "../../domain/types";
 import { isSectionValid } from "../../domain/rulesEngine";
 

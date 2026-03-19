@@ -7,7 +7,6 @@ import {
   getProfileForAnswers,
   getProfileRationale,
   inherentRiskRanges,
-  calculateInherentRiskScore,
   getApplicableFlags,
 } from "../config/thresholds";
 import { getControlsForProfile } from "../config/controls";

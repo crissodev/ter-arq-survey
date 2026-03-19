@@ -30,7 +30,7 @@ export function FormPage() {
         }
       }
     }
-  }, []);
+  }, [currentAssessment, loadToContext]);
 
   if (!currentAssessment) {
     return <div className="text-center p-5">Cargando evaluación...</div>;
